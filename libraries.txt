@@ -1,0 +1,7 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+FreeRTOS
+Adafruit GFX Library
+Adafruit ILI9341
+Adafruit FT6206 Library
