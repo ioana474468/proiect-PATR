@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": -47.4, "left": 476.4, "attrs": {} },
+    {
+      "type": "board-ili9341-cap-touch",
+      "id": "lcd1",
+      "top": -124.04,
+      "left": 239.62,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "lcd1:VCC", "mega:5V", "red", [ "v19.2", "h362.5" ] ],
+    [ "lcd1:GND", "mega:GND.2", "black", [ "v28.8", "h362.65" ] ],
+    [ "lcd1:MOSI", "mega:11", "green", [ "v67.2", "h124.8", "v-316.8", "h153.6" ] ],
+    [ "lcd1:LED", "mega:3.3V", "violet", [ "v86.4", "h19.2" ] ],
+    [ "lcd1:SCL", "mega:21", "white", [ "v105.6", "h508.8", "v-326.4", "h-59.7" ] ],
+    [ "lcd1:SDA", "mega:20", "purple", [ "v115.2", "h508.8", "v-345.6", "h-78.8" ] ],
+    [ "lcd1:MISO", "mega:13", "gray", [ "v96", "h115.2", "v-326.4", "h134.4" ] ],
+    [ "lcd1:SCK", "mega:12", "blue", [ "v76.8", "h124.8", "v-316.8", "h153.6" ] ],
+    [ "lcd1:D/C", "mega:10", "gold", [ "v57.6", "h124.8", "v-316.8", "h192" ] ],
+    [ "lcd1:CS", "mega:8", "#8f4814", [ "v38.4", "h124.8", "v-316.8", "h230.4" ] ],
+    [ "lcd1:RST", "mega:9", "orange", [ "v48", "h124.8", "v-316.8", "h211.2" ] ]
+  ],
+  "dependencies": {}
+}
